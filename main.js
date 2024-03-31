@@ -7,7 +7,7 @@ si.addEventListener("click", (e) => {
     setTimeout(() => {
         si.innerHTML = tmp;
       }, "5000");
-    alert("Mi faccia sapere la sua risposta :)")
+    alert("Fammi sapere la tua risposta :)")
 });
 
 no.addEventListener("click", (e) => {
@@ -15,5 +15,5 @@ no.addEventListener("click", (e) => {
     setTimeout(() => {
         no.innerHTML = tmp;
       }, "5000");
-    alert("Mi faccia sapere la sua risposta :)")
+    alert("Fammi sapere la tua risposta :)")
 });
