@@ -11,6 +11,7 @@ si.addEventListener("click", (e) => {
 });
 
 no.addEventListener("click", (e) => {
+    tmp = si.innerHTML;
     no.innerHTML = "<span>Peccato :(</span>";
     setTimeout(() => {
         no.innerHTML = tmp;
