@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #181818ff;
+}
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 20px;
+}
+.container h1 {
+  margin-bottom: 20px;
+}
+.container .title {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  align-items: center;
+}
+#hand {
+  transform: rotate(0deg) scaleX(-1);
+  animation: wave-hand 1s infinite;
+}
+
+@keyframes wave-hand {
+  0% {
+    transform: rotate(0deg) translateY(0);
+  }
+  25% {
+    transform: rotate(75deg) translateY(-10px);
+  }
+  100% {
+    transform: rotate(0deg) translateY(0);
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  gap: 10px;
+}
+
+.container p {
+  margin: auto;
+}
+
+.container2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container2 button {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  font-size: larger;
+}
